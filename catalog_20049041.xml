@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/css" href="catalog_20049041.css"?><!--Linking external CSS file to XML file-->
+<GiftCardStore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog_20049041.xsd"> <!--Creating root element and linking external schema-->
+    <Store> <!--Creating child element for storing store details-->
+        <navbar>
+            <ul>
+                <Logo></Logo>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Offer">Offer</a></li>
+                <li><a href="#Login">Login</a></li>
+                <li><a href="#Cart">Cart</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </navbar>
+        <StoreName storeID="S13356"> Gift Card Store </StoreName>
+        
+    </Store>
+    
+    <GiftCards> <!--Creating child element for storing GiftCard details-->
+    <float-Child>
+        <GiftCard giftcardNumber = "1">
+            <GiftCardName>VALORANT $50 Gift Card</GiftCardName>
+            <Description> Riot Gift Cards are the most reliable way to buy in-game currency 
+            where you don't even need a credit/debit card. Riot Gift Card codes can be received digitally 
+            via e-mail, or they can be activated by entering the pin code, which will be instantly reflected 
+            in your account. 
+            </Description>
+            <Image imageNumber = "1"/> <!--stores image of the GiftCard-->
+            <Bodi>
+            <Type>Key</Type>
+            <Refundable> Before 7 days of Purchace </Refundable>
+            <Validity> No expiration date</Validity>
+            <NoOfUsers>427 </NoOfUsers>
+            <DiscountVouchers>N/A</DiscountVouchers>
+            <Platform> Riot Games</Platform>
+            <Key-Features>
+            <Key-Feature>Delivered digitally soon after your purchase </Key-Feature>
+            <Key-Feature>Shipped by SJKGiftCardStore.com</Key-Feature>
+            </Key-Features>
+            </Bodi>
+        </GiftCard> 
+    </float-Child>
+
+    <float-Child1>
+        <GiftCard giftcardNumber = "2">
+            <GiftCardName>Valorant 10$ Gift Card</GiftCardName>
+            <Description> Riot Gift Cards are the most reliable way to buy in-game currency 
+            where you don't even need a credit/debit card. Riot Gift Card codes can be received digitally 
+            via e-mail, or they can be activated by entering the pin code, which will be instantly reflected 
+            in your account.</Description>
+            <Image imageNumber = "2"/>
+            <Bodi>
+            <Type>Key </Type>
+            <Validity>No expiration date</Validity>
+            <NoOfUsers> 34550</NoOfUsers>
+            <DiscountVouchers> N/A </DiscountVouchers>
+            <Availability> In Stock</Availability>
+            <Refundable>Before 7 days of purchase </Refundable>
+            <Platform>Riot Games </Platform>
+            <Key-Features>
+            <Key-Feature> Delivered digitally soon after your purchase</Key-Feature>
+            </Key-Features>
+            </Bodi>
+        </GiftCard>
+    </float-Child1>
+
+    <float-Child>
+        <GiftCard giftcardNumber = "3">
+            <GiftCardName >Steam 20$ Gift Card </GiftCardName>
+            <Description> If you love good cheap games, then this is the offer for you! We offer products that are worth much more than the ExclusiveDeal paid!
+            This product gives 5 unique CD-keys which can be activated on Steam platform.</Description>
+            <Image imageNumber= "3"/>
+            <Bodi>
+            <Type > Key </Type>
+            <Validity> No expiration date</Validity>
+            <NoOfUsers>23344 </NoOfUsers>
+            <DiscountVouchers>N/A </DiscountVouchers>
+            <Availability>In Stock </Availability>
+            <ExclusiveDeal> [Limited]</ExclusiveDeal>
+            <Refundable> Before 10 days of purchase</Refundable>
+            <Platform>Steam</Platform>
+            <Key-Features>
+            <Key-Feature> Delivered digitally soon after your purchase</Key-Feature>
+            <Key-Feature>Key provided via email</Key-Feature>
+            </Key-Features>
+            </Bodi>
+        </GiftCard>
+    </float-Child>
+
+        <float-Child1>
+        <GiftCard giftcardNumber = "4">
+            <Image imageNumber = "4"/>
+            <GiftCardName>Steam 50$ Gift card</GiftCardName>
+            <Description>If you love good cheap games, then this is the offer for you! We offer products that are worth much more than the ExclusiveDeal paid!
+            This product gives 5 unique CD-keys which can be activated on Steam platform.</Description>
+            <Bodi>
+            <Type>Key</Type>
+            <Validity>No expiration date</Validity>
+            <NoOfUsers>40000 </NoOfUsers>
+            <DiscountVouchers>N/A </DiscountVouchers>
+            <Availability>In Stock</Availability>
+            <ExclusiveDeal>[Limited]</ExclusiveDeal>
+            <Refundable> Before 10 days of purchase</Refundable>
+            <Platform>Steam</Platform>
+            <Key-Features>
+            <Key-Feature>Delivered digitally soon after your purchase</Key-Feature>
+            <Key-Feature>Key provided via email</Key-Feature>
+            <Key-Feature>Supplied by SJKGiftCardStore.com</Key-Feature>
+            </Key-Features>
+            </Bodi>
+        </GiftCard>
+        </float-Child1>
+
+        <float-Child>
+         <GiftCard giftcardNumber = "5">
+            <Image imageNumber= "5"/>
+            <GiftCardName Language="Nepali">Apple 500$ Gift Card</GiftCardName>
+            <Description>Apple gift cards are one of the most popular gift card purchases right now because of how easy and convenient 
+            they are to purchase Apple products, accessories, apps, iCloud storage space and any other Apple service. 
+            Instant delivery upon purchase allows you to email Apple gift cards to anyone you'd like.  
+            After a quick and simple checkout process, you will instantly receive an emailed Apple gift card.</Description>
+            <Bodi>
+            <Type >Key</Type>
+            <Validity>Upto 6 months of purchase</Validity>
+            <NoOfUsers>411000 </NoOfUsers>
+            <DiscountVouchers>N/A </DiscountVouchers>
+            <Availability>In Stock </Availability>
+            <Refundable> No</Refundable>
+            <Platform>Apple Inc.</Platform>
+            <CashBack>5% CashBack</CashBack>
+            </Bodi>
+        </GiftCard>
+        </float-Child>
+
+        <float-Child1>
+         <GiftCard giftcardNumber = "6">
+            <Image imageNumber= "6"/>
+            <GiftCardName >Apple 50$ Gift Card</GiftCardName>
+            <Description>Apple gift cards are one of the most popular gift card purchases right now because of how easy and convenient 
+            they are to purchase Apple products, accessories, apps, iCloud storage space and any other Apple service. 
+            Instant delivery upon purchase allows you to email Apple gift cards to anyone you'd like.  
+            After a quick and simple checkout process, you will instantly receive an emailed Apple gift card.</Description>
+            <Bodi>
+            <Type > Key </Type>
+            <Validity>Upto 6 months of purchase</Validity>
+            <NoOfUsers>451000</NoOfUsers>
+            <DiscountVouchers>Rock</DiscountVouchers>
+            <Availability>In Stock </Availability>
+            <Refundable> No</Refundable>
+            <Platform>Apple Inc.</Platform>
+            <Key-Features>
+            <Key-Feature>Card delivered via email</Key-Feature>
+            </Key-Features>
+            </Bodi>
+        </GiftCard>
+        </float-Child1>
+
+        <float-Child>
+         <GiftCard giftcardNumber = "7">
+            <Image imageNumber= "7"/>
+            <GiftCardName Language="English">GooglePlay 100$ Gift Card</GiftCardName>
+            <Description>Google Play Gift Card is the prepaid top-up card for Google Play Balance. It can be redeemed to pay for thousands of books, songs, movies, apps, magazines and many more on Google Play store. 
+            Use a Google Play gift code to go further in your favorite games like Clash Royale or Pokemon Go or redeem your code for the latest apps, movies, music, books, and more. 
+            There’s no credit card required, and balances never expire. Treat yourself or give the gift of Play today.</Description>
+            <Bodi>
+            <Type >Key</Type>
+            <Validity>No expiration date</Validity>
+            <NoOfUsers>11446 </NoOfUsers>
+            <DiscountVouchers>N/A</DiscountVouchers>
+            <Availability> In Stock</Availability>
+            <Refundable>No</Refundable>
+            <Platform>Google</Platform>
+            <CashBack>2% CashBack </CashBack>
+            </Bodi>
+        </GiftCard> 
+        </float-Child> 
+
+        <float-Child1>
+         <GiftCard giftcardNumber = "8">
+            <Image imageNumber= "8"/>
+            <GiftCardName Language="English">GooglePlay 10$ Gift Card</GiftCardName>
+             <Description>Google Play Gift Card is the prepaid top-up card for Google Play Balance. It can be redeemed to pay for thousands of books, songs, movies, apps, magazines and many more on Google Play store. 
+            Use a Google Play gift code to go further in your favorite games like Clash Royale or Pokemon Go or redeem your code for the latest apps, movies, music, books, and more. 
+            There’s no credit card required, and balances never expire. Treat yourself or give the gift of Play today.</Description>
+             <Bodi>
+            <Type >Key</Type>
+            <Validity>No expiration date</Validity>
+            <NoOfUsers>42000 </NoOfUsers>
+            <DiscountVouchers>N/A</DiscountVouchers>
+            <Availability>In Stock</Availability>
+            <Refundable> No</Refundable>
+            <Platform>Google </Platform>
+            </Bodi>
+        </GiftCard>  
+        </float-Child1>
+
+        <float-Child>
+         <GiftCard giftcardNumber = "9">
+            <Image imageNumber= "9"/>
+            <GiftCardName>Amazon 100$ GiftCard</GiftCardName>
+            <Description> An Amazon gift card is a card pre-loaded with a set amount of money and then sent out via email, post, or another method to a set recipient. 
+            The recipient can redeem their gift card on Amazon for anything on Amazon.</Description>
+            <Bodi>
+            <Type > Key </Type>
+            <Validity> No expiration date</Validity>
+            <NoOfUsers>30444 </NoOfUsers>
+            <DiscountVouchers>N/A</DiscountVouchers>
+            <Availability>In Stock</Availability>
+            <Refundable> No</Refundable>
+            <Platform>Amazon</Platform>
+            <Key-Features>
+            <Key-Feature>Delivered digitally soon after your purchase</Key-Feature>
+            <Key-Feature>key provided via email</Key-Feature>
+            </Key-Features>
+            </Bodi>
+        </GiftCard>
+        </float-Child>
+        
+        <float-Child1>
+         <GiftCard giftcardNumber = "10">
+            <Image imageNumber= "10"/>
+            <GiftCardName >Amazon 50$ GiftCard</GiftCardName>
+            <Description>An Amazon gift card is a card pre-loaded with a set amount of money and then sent out via email, post, or another method to a set recipient.
+            The recipient can redeem their gift card on Amazon for anything on Amazon.</Description>
+            <Bodi>
+            <Type>Key</Type>
+            <Validity>No expiration date</Validity>
+            <NoOfUsers>30447 </NoOfUsers>
+            <DiscountVouchers>N/A</DiscountVouchers>
+            <Availability>In Stock</Availability>
+            <ExclusiveDeal>[Limited]</ExclusiveDeal>
+            <Refundable> No</Refundable>
+            <Platform>Amazon </Platform>
+            <Key-Features>
+            <Key-Feature>Delivered digitally soon after your purchase</Key-Feature>
+            <Key-Feature>Key provided via email</Key-Feature>
+            <Key-Feature>Shipped by SJKGiftCardStore.com</Key-Feature>
+            </Key-Features>
+            </Bodi>
+        </GiftCard>
+        </float-Child1>
+
+        <float-Child>
+         <GiftCard giftcardNumber = "11">
+            <Image imageNumber= "11"/>
+            <GiftCardName Language="English">StarBucks 15$ GiftCard</GiftCardName>
+            <Description>When you give a Starbucks Card, they get more than a simple gift-they get a premium experience, with access to consistently great coffee, quality food items and a chance to earn free drink or food rewards through My Starbucks Rewards™.
+             My Starbucks Rewards® More than great drinks</Description>
+            <Bodi>
+            <Type> Key</Type>
+            <Validity>Upto 3months of purchase</Validity>
+            <NoOfUsers>3112 </NoOfUsers>
+            <DiscountVouchers>N/A </DiscountVouchers>
+            <Availability>In Stock</Availability>
+            <Refundable> No</Refundable>
+            <Platform>StarBucks Corp. </Platform>
+            <Key-Features>
+            <Key-Feature>Delivered digitally soon after your purchase</Key-Feature>
+            <Key-Feature>Card delivered by email</Key-Feature>
+            </Key-Features>
+            </Bodi>
+        </GiftCard>
+        </float-Child>
+
+        <float-Child1>
+         <GiftCard giftcardNumber = "12">
+            <Image imageNumber= "12"/>
+            <GiftCardName>Arby's 15$ GiftCard</GiftCardName>
+            <Description>Arby's restaurants feature Fast Craftedservice, a unique blend of quick-serve speed and value combined with the quality and made-for-you care of fast casual. 
+            Arby's Restaurant Group, Inc. is the franchisor of the Arby's brand and is headquartered in Atlanta, Ga.</Description>
+            <Bodi>
+            <Type>Redeem </Type>
+            <Validity>Upto 6 months of purchase</Validity>
+            <NoOfUsers>32257 </NoOfUsers>
+            <Availability>In Stock</Availability>
+            <Refundable> No</Refundable>
+            <Platform>Arby's Corp.</Platform>
+            <Key-Features>
+            <Key-Feature>Card delivered via email</Key-Feature>
+            </Key-Features>
+            </Bodi>
+        </GiftCard>
+        </float-Child1>
+
+        <float-Child>
+         <GiftCard giftcardNumber = "13">
+            <Image imageNumber= "13"/>
+            <GiftCardName Language="English">American Express® $100 Gift Card</GiftCardName>
+            <Description>Enjoy using American Express® Gift Cards virtually everywhere American Express® Cards are accepted in the United States, U.S. Virgin Islands and Puerto Rico.No fees after purchase.Funds do not expire
+            Replaceable if your Gift Card is lost or stolen (Terms and conditions apply. See Cardholder Agreement.)</Description>
+            <Bodi>
+            <Type >Key</Type>
+            <Validity>Upto 6 months after purchase</Validity>
+            <NoOfUsers>2000</NoOfUsers>
+            <DiscountVouchers> N/A</DiscountVouchers>
+            <Availability>In Stock</Availability>
+            <Refundable> No</Refundable>
+            <Platform>American Express </Platform>
+            <CashBack>9% CashBack </CashBack>
+            <Key-Features>
+            <Key-Feature>Delivered digitally soon after your purchase</Key-Feature>
+            <Key-Feature>Sold and shipped by SJKGiftCardStore.com</Key-Feature>
+            </Key-Features>
+            </Bodi>
+        </GiftCard>
+        </float-Child>
+
+        <float-Child1>
+         <GiftCard giftcardNumber = "14">
+            <Image imageNumber= "14"/>
+            <GiftCardName Language="English">Walmart+ Annual Membership Gift Card</GiftCardName>
+            <Description>Give the gift of an annual Walmart+ membership! Its the membership that saves you time and money with exclusive member benefits: 
+            Free same-day delivery from your store.Free shipping with no order minimum from Walmart.com . Special member ExclusiveDeals on fuel at select stations</Description>
+            <Bodi>
+            <Type>Membership</Type>
+            <Validity> Upto 1 year of Purschase</Validity>
+            <NoOfUsers>20000 </NoOfUsers>
+            <DiscountVouchers>N/A </DiscountVouchers>
+            <Availability> Yes</Availability>
+            <Refundable> Non Refundable</Refundable>
+            <Platform>Walmart Inc.</Platform>
+            <CashBack> 3% CashBack</CashBack>
+            </Bodi>
+        </GiftCard>
+        </float-Child1>
+
+        <float-Child>
+         <GiftCard giftcardNumber = "15">
+            <Image imageNumber= "15"/>
+            <GiftCardName Language="English">Walmart eBooks $50 eGift Card </GiftCardName>
+            <Description>Walmart eBooks eGift Cards can be redeemed at kobo.com/redeem for millions of eBooks and audiobooks. Enjoy your favorite books across Android and iOS devices and Kobo eReaders. 
+            -Millions of eBooks and audiobooks to choose from -Dozens of genres in multiple languages</Description>
+            <Bodi>
+            <Type >Key </Type>
+            <Validity>No expiration date</Validity>
+            <NoOfUsers>40014 </NoOfUsers>
+            <DiscountVouchers>N/A</DiscountVouchers>
+            <ExclusiveDeal>[Limited]</ExclusiveDeal>
+            <Refundable> No</Refundable>
+            <Platform>Walmart eBooks </Platform>
+            <Key-Features>
+            <Key-Feature>Delivered via email</Key-Feature>
+            <Key-Feature>Sold and shipped by SJKGiftCardStore.com</Key-Feature>
+            <Key-Feature>Not Available in your country</Key-Feature>
+            </Key-Features>
+            </Bodi>
+        </GiftCard>
+        </float-Child>
+
+        <float-Child>
+         <GiftCard giftcardNumber = "16">
+            <Image imageNumber= "16"/>
+            <GiftCardName Language="English">Subway Multi Pack $30 Gift Card</GiftCardName>
+            <Description>Subway® Cards can be used at participating Subway® restaurant locations throughout the U.S. and Canada. 
+            Participating locations can be found on https://https://www.subway.com. </Description>
+            <Bodi>
+            <Type>Redeem</Type>
+            <Validity>Upto 3 months after purchase</Validity>
+            <NoOfUsers>40000 </NoOfUsers>
+            <DiscountVouchers>N/A</DiscountVouchers>
+            <ExclusiveDeal>[Limited]</ExclusiveDeal>
+            <Refundable> No</Refundable>
+            <Platform>Subway </Platform>
+            <Key-Features>
+            <Key-Feature>Delivered digitally soon after your purchase</Key-Feature>
+            <Key-Feature>Sold and shipped by SJKGiftCardStore.com</Key-Feature>
+            <Key-Feature>This item cannot be returned. All sales are final.</Key-Feature>
+            </Key-Features>
+            </Bodi>
+        </GiftCard>
+        </float-Child>
+    </GiftCards>
+    <Address> Seattle, United States Of America</Address>
+    <TelephoneNumber>014352456</TelephoneNumber>
+    <Website>www.SJKGiftCardStore.com</Website>
+</GiftCardStore>

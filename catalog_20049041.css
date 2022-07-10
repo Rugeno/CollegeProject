@@ -1,0 +1,411 @@
+GiftCardStore { 
+    background-color: whitesmoke;/*rgb(24, 23, 23);
+    /*background-image: url('pictures/backGG.png');*/
+    
+}
+
+/* adding logo image of music store*/
+navbar{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+    min-height: 5vh;
+    position: sticky;
+    top: 0;
+    color: rgb(211, 211,211);
+    background-color: darkgray;
+    z-index: 1000;
+    }
+
+navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 10px 0;
+}
+
+navbar ul{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 40px 25px 0px 0px;
+    transition: all 1.5s ease;
+}
+navbar ul li a:hover{
+    
+    color: black;
+    box-shadow: 0 0 white;
+}
+
+
+Logo {
+    content: url('pictures/Console.png');
+    width: 46px;
+    height: 46px;
+    overflow: hidden;
+    margin-top: -6px;
+    padding-right: 20px;
+    object-fit: cover;
+}
+
+
+float-Child{
+    float: left;
+    width: 50%;
+
+    
+} 
+float-Child1{
+    float: right;
+    width: 50%;
+} 
+/*Styling store info*/
+StoreName{
+    display: block;
+    font-size: 80px;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: 100px;
+    color:black;
+    padding-top: 5mm;
+    padding-left: 80px;
+}
+
+Address, TelephoneNumber, Website {
+    display: block;
+    text-align: center;
+    color:black;
+    padding-top: 5px;
+    background-color: darkgray;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+Website{
+color: blue;
+}
+
+/* styling GiftCard details */
+GiftCard {
+    display: flex;
+    flex-basis: 29%;
+    flex-direction: column;
+    margin: 20px;
+    padding: 30px;
+    margin-top: 20px;
+    background: rgb(60, 61, 62);/*rgb(58, 56, 56);*/
+    font-size: 17px;
+    font-family:sans-serif;
+    border-style:solid;
+    color: rgb(255, 255, 255);
+    height: 450px;
+} 
+
+
+GiftCardName{
+font-weight: 1000;
+text-decoration: underline;
+font-size: 20px;
+padding-bottom: 45px; 
+font-family: cursive;   
+}
+
+GiftCardName:hover {
+    color: rgb(0, 0, 0);
+}
+
+GiftCardName{
+    white-space:pre;
+    content: "GiftCardName: ";
+    padding-left: 200px;
+}
+
+Bodi{
+    white-space: pre;
+    content: "Body; ";
+}
+
+
+Type::before{
+    white-space:pre;
+    content: "Type: ";
+    padding-left: 170px;
+}
+
+Validity::before{
+    white-space:pre;
+    content: "Validity: ";
+    padding-left: 170px;
+}
+
+NoOfUsers::before{
+    white-space:pre;
+    content: "Users: ";
+    padding-left: 170px;
+}
+
+Availability::before{
+    white-space:pre;
+    content: "Availability: ";
+    padding-left: 170px;
+}
+
+DiscountVouchers::before{
+    white-space:pre;
+    content: "DiscountVouchers: ";
+    padding-left: 170px;
+}
+
+Refundable::before{
+    white-space:pre;
+    content: "Refundable: ";
+    padding-left: 170px;
+}
+
+Description::before{
+    white-space:pre-wrap;
+    content: "";
+    padding-left: 0px;
+}
+
+Platform::before{
+    white-space:pre;
+    content: "Platform: ";
+    padding-left: 170px;
+}
+
+Platform::before{
+    white-space:pre;
+    content: "Platform: ";
+    padding-left: 170px;
+}
+
+
+Key-Features::before{
+    white-space:pre;
+    content: "Key-Features: ";
+    padding-left: 170px;
+}
+
+
+ExclusiveDeal::before{
+    white-space:pre;
+    content: " ";
+    padding-left: 170px;
+}
+
+CashBack::before{
+    white-space:pre;
+    content: "CAshBack: ";
+    padding-left: 170px;
+}
+
+Key-Feature{
+display: list-item;
+list-style:square;
+list-style-position: inside;
+font-size: small;
+padding-left: 230px;
+}
+
+/*adding images to GiftCards*/
+
+Image[imageNumber="1"]{
+    content: url('pictures/Valorant.jpeg'); 
+    top: 400px;
+    position: absolute;
+    height: 200px;
+    width: 150px;
+    margin-top: 1px;
+    border-style: solid;
+    border-width: 24px;
+    
+}
+
+Image[imageNumber="2"] {
+    content: url("pictures/Valorant1.jpeg");
+    top: 400px;
+    position: absolute;
+    height: 200px;
+    width: 130px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-style:solid;
+    border-width: 24px;
+}
+
+Image[imageNumber="3"] {
+    content:url("pictures/Steam.png");
+    position: absolute;
+    top: 950px;
+    height: 200px;
+    width: 150px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-style:solid;
+    border-width: 24px;
+}
+
+Image[imageNumber="4"] {
+    content:url("pictures/Steam1.png");
+    top: 900px;
+    position: absolute;
+    height: 200px;
+    width: 150px;
+    margin-left: 5px;
+    margin-top: 40px;
+    border-style:solid;
+    border-width: 24px;
+}
+
+Image[imageNumber="5"] {
+    content:url("pictures/Apple.png");
+    position: absolute;
+    top: 1550px;
+    height: 200px;
+    width: 150px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border-style:solid;
+    border-width: 24px;
+}
+
+Image[imageNumber="6"] {
+    content:url("pictures/Apple1.png");
+    position: absolute;
+    top: 1550px;
+    height: 200px;
+    width: 150px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border-style:solid;
+    border-width: 24px;
+}
+
+Image[imageNumber="7"] {
+    content:url("pictures/Google.png");
+    position: absolute;
+    top: 2100px;
+    height: 200px;
+    width: 150px;
+    margin-left: 5px;
+    margin-top: 1px;
+    border-style:solid;
+    border-width: 24px;
+}
+
+Image[imageNumber="8"] {
+    content:url("pictures/Google1.png");
+    position: absolute;
+    top: 2100px;
+    height: 200px;
+    width: 150px;
+    margin-left: 5px;
+    margin-top: 2px;
+    border-style:solid;
+    border-width: 24px;
+}
+
+Image[imageNumber="9"] {
+    content:url("pictures/Amazon.png");
+    position: absolute;
+    top: 2600px;
+    height: 200px;
+    width: 150px;
+    margin-left: 5px;
+    margin-top: 20px;
+    border-style:solid;
+    border-width: 24px;
+}
+
+Image[imageNumber="10"] {
+    content:url("pictures/Amazon1.png");
+    position: absolute;
+    top: 2600px;
+    height: 200px;
+    width: 150px;
+    margin-left: 5px;
+    margin-top: 40px;
+    border-style:solid;
+    border-width: 24px;
+}
+
+Image[imageNumber="11"] {
+    content:url("pictures/Starbucks.png");
+    position: absolute;
+    top: 3180px;
+    height: 200px;
+    width: 150px;
+    margin-left: 5px;
+    margin-top: 20px;
+    border-style:solid;
+    border-width: 24px;
+}
+
+Image[imageNumber="12"] {
+    content:url("pictures/Arbys.png");
+    position: absolute;
+    top: 3180px;
+    height: 200px;
+    width: 150px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border-style:solid;
+    border-width: 24px;
+}
+
+Image[imageNumber="13"] {
+    content:url("pictures/AmericanExpress.png");
+    position: absolute;
+    top: 3700px;
+    height: 200px;
+    width: 150px;
+    margin-left: 5px;
+    margin-top: 40px;
+    border-style:solid;
+    border-width: 24px;
+}
+
+Image[imageNumber="14"] {
+    content:url("pictures/Walmart.png");
+    position: absolute;
+    top: 3720px;
+    height: 200px;
+    width: 150px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border-style:solid;
+    border-width: 24px;
+}
+
+Image[imageNumber="15"] {
+    content:url("pictures/Walmart1.png");
+    position: absolute;
+    top: 4250px;
+    height: 200px;
+    width: 150px;
+    margin-left: 5px;
+    margin-top: 40px;
+    border-style:solid;
+    border-width: 24px;
+}
+
+Image[imageNumber="16"] {
+    content:url("pictures/Subway.png");
+    position: absolute;
+    top: 4250px;
+    height: 200px;
+    width: 150px;
+    margin-left: 5px;
+    margin-top: 40px;
+    border-style:solid;
+    border-width: 24px;
+}

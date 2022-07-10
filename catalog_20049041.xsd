@@ -1,0 +1,169 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="a">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="href" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Logo" type="xs:string"/>
+  <xs:element name="li">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="a"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ul">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Logo"/>
+        <xs:element ref="li" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="navbar">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ul"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="StoreName">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="storeID"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Key-Feature" type="xs:string"/>
+  <xs:element name="Type" type="xs:string"/>
+  <xs:element name="Refundable" type="xs:string"/>
+  <xs:element name="Validity" type="xs:string"/>
+  <xs:element name="NoOfUsers" type="xs:float"/>
+  <xs:element name="DiscountVouchers" type="xs:string"/>
+  <xs:element name="Platform" type="xs:string"/>
+  <xs:element name="Key-Features">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Key-Feature" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GiftCardName">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="Language" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Description" type="xs:string"/>
+  <xs:element name="Image">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:byte" name="imageNumber" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Bodi">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded" minOccurs="0">
+        <xs:element ref="Type"/>
+        <xs:element ref="Refundable"/>
+        <xs:element ref="Validity"/>
+        <xs:element ref="NoOfUsers"/>
+        <xs:element ref="DiscountVouchers"/>
+        <xs:element ref="Platform"/>
+        <xs:element ref="Key-Features"/>
+        <xs:element ref="Availability"/>
+        <xs:element ref="ExclusiveDeal"/>
+        <xs:element ref="CashBack"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GiftCard">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded" minOccurs="0">
+        <xs:element ref="GiftCardName"/>
+        <xs:element ref="Description"/>
+        <xs:element ref="Image"/>
+        <xs:element ref="Bodi">
+          <xs:annotation>
+            <xs:documentation>stores image of the GiftCard</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+      </xs:choice>
+      <xs:attribute type="xs:byte" name="giftcardNumber" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Availability" type="xs:string"/>
+  <xs:element name="ExclusiveDeal" type="xs:string"/>
+  <xs:element name="CashBack" type="xs:string"/>
+  <xs:element name="float-Child">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="GiftCard"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="float-Child1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="GiftCard"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Store">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="navbar">
+          <xs:annotation>
+            <xs:documentation>Creating child element for storing store details</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element ref="StoreName"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GiftCards">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded" minOccurs="0">
+        <xs:element ref="float-Child">
+          <xs:annotation>
+            <xs:documentation>Creating child element for storing GiftCard details</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element ref="float-Child1"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element type="xs:string" name="Address" />
+  <xs:element type="xs:int" name="TelephoneNumber"/>
+  <xs:element type="xs:anyURI" name="Website"/>
+  <xs:element name="GiftCardStore">
+    <xs:annotation>
+      <xs:documentation>Linking external CSS file to XML file</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Store">
+          <xs:annotation>
+            <xs:documentation>Creating root element and linking external schema</xs:documentation>
+          </xs:annotation>
+        </xs:element>
+        <xs:element ref="GiftCards"/>
+        <xs:element ref="Address"/>
+        <xs:element ref="TelephoneNumber"/>
+        <xs:element ref="Website"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
